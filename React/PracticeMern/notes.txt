@@ -1,0 +1,8 @@
+start a server
+
+connect a mongoose with server
+
+check it is connected or not properly using postman
+install the middlewares for routes
+
+making the routes and controllers

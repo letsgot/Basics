@@ -1,0 +1,4 @@
+
+two student and school 
+
+select Student.id from student left Join select * from 

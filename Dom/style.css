@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    background-color: lightgrey;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.heading{
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+}
+
+/* header part  */
+header{
+    height: 10vh;
+}
+h3{
+    color: grey;
+}
+
+/* main */
+
+.line{
+    height: 1vh;
+    background-color: yellowgreen;
+}
+
+.img-section{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-section>img{
+    max-width: 100%;
+}
+
+
+
+/* footer part  */
+
+.platforms{
+    height: calc(100% - 80%);
+}
+
+a>img{
+    height: 6vh;
+    width: 10%;
+    border: 2px solid grey;
+}
+
+
+@media screen and (min-width: 480px) {
+    
+  }

@@ -1,0 +1,19 @@
+.table {
+    border: 1px solid;
+}
+
+.th{
+    border: 1px solid;
+}
+
+.tr {
+    border: 1px solid;
+}
+
+.backButton{
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    text-align: center;
+    vertical-align: center;
+}

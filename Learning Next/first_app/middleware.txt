@@ -1,0 +1,36 @@
+// import { NextResponse } from "next/server"
+
+// export function middleware(request){
+//     console.log(request.nextUrl.pathname);
+//     // if(request.nextUrl.pathname!=="/login"){
+//         return NextResponse.redirect(new URL("/login",request.url));
+//     // }
+// }
+
+// export const config = {
+//     matcher: '/about/:path*',
+// }
+
+
+// path = src/middleware.js
+
+// import { NextResponse } from 'next/server'
+ 
+// // This function can be marked `async` if using `await` inside
+// export function middleware(request) {
+//   return NextResponse.redirect(new URL('/login', request.url))
+// }
+ 
+// // See "Matching Paths" below to learn more
+// export const config = {
+//   matcher: ['/about/:path*',]
+// }
+
+
+// yeh jb chlega jab kahi b jana ho website kisi b webpage agar aap login nhi ho redirect karega 
+// export default function Middleware(request){
+//     console.log(request.nextUrl.pathname);
+//     if(request.nextUrl.pathname!=="/login"){
+//         return NextResponse.redirect(new URL("/login",request.url));
+//     }
+// }
